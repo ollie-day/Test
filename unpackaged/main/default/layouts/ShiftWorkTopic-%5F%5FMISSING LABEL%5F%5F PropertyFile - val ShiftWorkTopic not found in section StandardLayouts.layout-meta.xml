@@ -3,26 +3,25 @@
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
-        <label>Information</label>
+        <editHeading>true</editHeading>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>TargetRecordId</field>
+                <field>ShiftId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>ProcessTime</field>
+                <behavior>Edit</behavior>
+                <field>WorkTypeId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsDefault</field>
+                <field>AreAllTopicsSupported</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>ProcessTimeUnit</field>
+                <behavior>Edit</behavior>
+                <field>WorkTypeGroupId</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -31,6 +30,9 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
