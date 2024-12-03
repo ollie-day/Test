@@ -45,15 +45,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Test_Checkbox__c</field>
+                <field>b__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Test__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>xxx__c</field>
+                <field>bb__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
